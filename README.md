@@ -16,5 +16,6 @@ The analysis followed a standard data science pipeline:
 - Module 4: Model Development (Building various Linear Regression and Pipeline models)
 - Module 5: Model Evaluation and Refinement (Testing model performance using Ridge Regression)
 
-##⭐ Result: Best Model Recommendation
+## ⭐ Result: Best Model Recommendation
+
 Based on the Model Development and Evaluation phases, the **Polynomial Regression Pipeline** demonstrated the highest performance in explaining the variance in house prices. The Polynomial Regression Pipeline Model (involving StandardScaler(), PolynomialFeatures(degree=2), and LinearRegression()) is the best model to use for prediction, achieving an $R^2$ score of 0.7512. This means the model explains approximately 75.12% of the variability in King County house prices, making it a robust starting point for the Real Estate Investment Trust's analysis.
